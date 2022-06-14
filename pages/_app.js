@@ -1,7 +1,7 @@
-import About from "."
+import '../styles/globals.css'
 
-function MyApp() {
-  return <About />
+function MyApp({ Component, pageProps }) {
+  return <Component {...pageProps} />
 }
 
 export default MyApp
