@@ -8,7 +8,7 @@ return(
             <div className="employeeOfTheMonth">
                 <h2>{employee.name}</h2>
                 <h6>{employee.position}</h6>
-                <img src="{employee.image}"/>
+                <img src={employee.image}/>
                 <p>{employee.discription}</p>
             </div>
         </div>
