@@ -1,6 +1,7 @@
 
 import styles from '../styles/EOM.module.css'
 import { Toolbar } from '../components/toolbar';
+import { Footer } from '../components/footer';
 export const EOM = ({employee}) => {
 return(
     <div className="page-container">
@@ -14,6 +15,7 @@ return(
                 <p>{employee.discription}</p>
             </div>
         </div>
+        <Footer />
     </div>
 )
 };
