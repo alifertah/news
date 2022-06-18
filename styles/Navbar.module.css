@@ -3,6 +3,7 @@
     height: 50px;
     display: flex;
     justify-content: center;
+    color: rgb(241, 235, 235);
 }
 
 .main div {

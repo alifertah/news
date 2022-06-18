@@ -4,6 +4,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  color: rgb(241, 235, 235);
 }
 
 .title a,

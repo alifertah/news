@@ -9,13 +9,15 @@
     margin-bottom: 25px;
     padding-bottom: 25px;
     border-bottom: 1px solid black;
+    color: rgb(241, 235, 235);
   }
   .post img {
     width: 100%;
   }
   .post h1 {
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
+    color: #ECB365;
     text-align: center;
   }
   .paginator {
@@ -25,9 +27,11 @@
   }
   .paginator div {
     margin: 25px;
+    color: rgb(241, 235, 235);
   }
   .paginator .active {
     cursor: pointer;
+    color: rgb(241, 235, 235);
   }
   .paginator .disabled {
     cursor: not-allowed;
