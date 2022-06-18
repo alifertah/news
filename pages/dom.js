@@ -16,10 +16,13 @@ const DOM = ({ developer }) => {
 }
 
 export const getServerSideProps = async () => {
-    const apiResponse = await fetch(
-        'https://my-json-server.typicode.com/nabendu82/next-news/devOfMonth',
-    );
-    const developer = await apiResponse.json();
+    
+    const developer = {
+        "name": "Ali Fertah",
+        "position": "Software engineer",
+        "image": "https://cdn.intra.42.fr/users/alfertah.jpg",
+        "description": "Web developer, Author, Tech Blogger",
+    };
 
     return {
         props: {
