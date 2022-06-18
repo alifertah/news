@@ -4,8 +4,6 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    background-color: rgb(26, 26, 59);
-    color: rgb(220, 220, 220);
 }
 
 a {
@@ -15,4 +13,10 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.page-container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
 }
