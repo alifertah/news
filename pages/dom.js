@@ -20,7 +20,7 @@ export const getServerSideProps = async () => {
     const developer = {
         "name": "Ali Fertah",
         "position": "Software engineer",
-        "image": "https://cdn.intra.42.fr/users/alfertah.jpg",
+        "image": "/icon.jpg",
         "description": "Web developer, Author, Tech Blogger",
     };
 
